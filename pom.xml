@@ -31,10 +31,6 @@
     <version>1.1.8-SNAPSHOT</version>
     <name>apigee-edge-maven-plugin maven mojo</name>
     <url>http://maven.apache.org</url>
-   <properties>
- <maven.compiler.source>1.8</maven.compiler.source>
- <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -138,6 +134,11 @@
 
     <!-- mgmt-api-java-sdk -->
     <properties>
+	     
+ <maven.compiler.source>1.8</maven.compiler.source>
+ <maven.compiler.target>1.8</maven.compiler.target>
+
+  
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.20.RELEASE</spring.version>
         <spring.security.version>4.2.9.RELEASE</spring.security.version>
